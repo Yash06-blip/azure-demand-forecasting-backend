@@ -37,14 +37,28 @@ The project aims to build an **Azure-based system** that predicts resource deman
 - **Matplotlib, Seaborn**
 - **(Upcoming: Flask/FastAPI for REST APIs, scikit-learn, XGBoost, TensorFlow/Keras)**
 
-Azure_Demand_Forecasting/
-├── data/
-│   ├── raw/
-│   └── processed/cleaned_merged.csv
-├── notebooks/
-├── backend/
-│   └── (API and ML scripts in later milestones)
-├── README.md
+Integrated_Forecasting_-Predict_Azure_consumer_demand/
+├── 📊 FRONTEND/
+│   └── dashboard_app.py              # Streamlit Dashboard (266KB)
+├── 🔧 BACKEND AUTOMATED REPORTS/
+│   ├── intelligent_training_report    #report details of training
+│   ├── model_training_pipeline.py   # ML Training Pipeline (42KB)
+│            
+├── 📦 DATA/
+│   └── cleaned_merged.csv            # Historical Dataset (59KB)
+├── 🛠️ TOOLS/
+│   ├── requirements.txt              # Python Dependencies
+│   ├── postman_collection.json      # API Testing Suite
+│   └── presentation_materials/      # Demo & Documentation
+├── 📚 DOCS/
+|   ├── README.md                     # Project Documentation
+|   ├── API_DOCUMENTATION.md          # Complete API Reference
+|   └── DEPLOYMENT_GUIDE.md           # Production Setup Guide
+|
+├─── 📊 FRONTEND -dashboard_app.py              # Streamlit Dashboard (266KB)
+|─── 🔧 BACKEND -optimised_backend_app.py      # Flask REST API (150KB)
+|─── 🔧 BACKEND -model_training_pipeline.py   # ML Training Pipeline (42KB)
+|─── 🔧 BACKEND -start_pipeline.py            # System Launcher (1KB)
 
 
 Yash Bagde
