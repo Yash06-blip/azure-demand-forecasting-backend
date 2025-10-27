@@ -31,13 +31,21 @@ The project aims to build an **Azure-based system** that predicts resource deman
 
 
 🧑‍💻 Tech Stack
-Python 3.8+
 
-Pandas, NumPy
+- **Python 3.8+**
+- **Pandas, NumPy**
+- **Matplotlib, Seaborn**
+- **(Upcoming: Flask/FastAPI for REST APIs, scikit-learn, XGBoost, TensorFlow/Keras)**
 
-Matplotlib, Seaborn
+Azure_Demand_Forecasting/
+├── data/
+│   ├── raw/
+│   └── processed/cleaned_merged.csv
+├── notebooks/
+├── backend/
+│   └── (API and ML scripts in later milestones)
+├── README.md
 
-(Upcoming: Flask/FastAPI for REST APIs, scikit-learn, XGBoost, TensorFlow/Keras)
 
 Yash Bagde
 B.Tech, Computer Science Engineering
