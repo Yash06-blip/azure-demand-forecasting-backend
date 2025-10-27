@@ -27,7 +27,7 @@ The project aims to build an **Azure-based system** that predicts resource deman
 | Data Collection        | Sourced Azure historical usage data and external factors (economic index, cloud market demand, holiday)                                 |
 | Data Cleaning          | Handled missing values, removed duplicates, standardized date/time, normalized units                                                    |
 | Data Integration       | Merged datasets by date and region; saved asdata/processed/cleaned_merged.csv                                                           |
-| Exploratory Analysis   | Computed average daily CPU usage, monthly peak cloud market demand, and top-5 regional usage; created basic plots withMatplotlib/Seaborn|
+| Exploratory Analysis   | Computed average daily CPU usage, monthly peak cloud market demand, and top-5 regional usage; created basic plots with Matplotlib/Seaborn|
 
 🧑‍💻 Tech Stack
 
