@@ -22,6 +22,14 @@ The project aims to build an **Azure-based system** that predicts resource deman
 - [x] Build dummy REST API (`/api/usage-trends` & `/api/forecast`)  
 
 
+Step                  |  Description                                                                                                    
+----------------------+-----------------------------------------------------------------------------------------------------------------
+Data Collection       |  Sourced Azure historical usage data and external factors (weather, events, electricity prices)                 
+Data Cleaning         |  Handled missing values, removed duplicates, standardized date/time, normalized units                           
+Data Integration      |  Merged datasets by date and region; saved asdata/processed/cleaned_merged.csv                                  
+Exploratory Analysis  |  Computed average daily CPU, monthly peak, and top-5 regional usage; created basic plots with Matplotlib/Seaborn
+
+
 Yash Bagde
 B.Tech, Computer Science Engineering
 Email: yash.bagde.work@gmail.com
