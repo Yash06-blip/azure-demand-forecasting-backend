@@ -37,6 +37,7 @@ The project aims to build an **Azure-based system** that predicts resource deman
 - **Matplotlib, Seaborn**
 - **(Upcoming: Flask/FastAPI for REST APIs, scikit-learn, XGBoost, TensorFlow/Keras)**
 
+```
 Integrated_Forecasting_-Predict_Azure_consumer_demand/
 ├── 📊 FRONTEND/
 │   └── dashboard_app.py              # Streamlit Dashboard (266KB)
@@ -60,6 +61,7 @@ Integrated_Forecasting_-Predict_Azure_consumer_demand/
 |─── 🔧 BACKEND -model_training_pipeline.py   # ML Training Pipeline (42KB)
 |─── 🔧 BACKEND -start_pipeline.py            # System Launcher (1KB)
 
+```
 
 Yash Bagde
 B.Tech, Computer Science Engineering
