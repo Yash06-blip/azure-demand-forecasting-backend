@@ -30,6 +30,15 @@ The project aims to build an **Azure-based system** that predicts resource deman
 | Exploratory Analysis   | Computed average daily CPU, monthly peak, and top-5 regional usage; created basic plots with Matplotlib/Seaborn  |
 
 
+🧑‍💻 Tech Stack
+Python 3.8+
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+(Upcoming: Flask/FastAPI for REST APIs, scikit-learn, XGBoost, TensorFlow/Keras)
+
 Yash Bagde
 B.Tech, Computer Science Engineering
 Email: yash.bagde.work@gmail.com
