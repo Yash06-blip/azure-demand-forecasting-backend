@@ -29,12 +29,6 @@ The project aims to build an **Azure-based system** that predicts resource deman
 | Data Integration       | Merged datasets by date and region; saved asdata/processed/cleaned_merged.csv                                                           |
 | Exploratory Analysis   | Computed average daily CPU usage, monthly peak cloud market demand, and top-5 regional usage; created basic plots with Matplotlib/Seaborn|
 
-🧑‍💻 Tech Stack
-
-- **Python 3.8+**
-- **Pandas, NumPy**
-- **Matplotlib, Seaborn**
-- **(Upcoming: Flask/FastAPI for REST APIs, scikit-learn, XGBoost, TensorFlow/Keras)**
 
 ```
 Integrated_Forecasting_-Predict_Azure_consumer_demand/
